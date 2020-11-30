@@ -113,7 +113,7 @@ sendCoreCode = (req, res) => {
   // // 配置
   var params = {
     "RegionId": "cn-hangzhou",
-    "PhoneNumbers": "15217554483",
+    "PhoneNumbers": "你自己的",
     "SignName": "expressAPI接口",
     "TemplateCode": "SMS_205457394",
     "TemplateParam": JSON.stringify({ "code": code })
